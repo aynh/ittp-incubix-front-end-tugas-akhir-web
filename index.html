@@ -1,0 +1,547 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.bunny.net">
+  <link href="https://fonts.bunny.net/css?family=lexend-zetta:400|open-sans:400" rel="stylesheet" />
+  <link href="./dist/output.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="bg-main text-white px-6 md:px-12">
+    <nav class="flex items-center justify-between py-4">
+      <span class="text-4xl font-display -tracking-[8px]"> TVL </span>
+      <button class="flex items-center justify-center h-12 w-12 border border-white/30 md:hidden">
+        <img src="./assets/menu.png" />
+      </button>
+
+      <div class="hidden md:flex items-center space-x-8 lg:space-x-16 lg:mr-8">
+        <ul class="flex space-x-6 lg:space-x-12">
+          <li> <a href="#"> About </a> </li>
+          <li> <a href="#"> Tours </a> </li>
+          <li> <a href="#"> Blog </a> </li>
+          <li> <a href="#"> Contact </a> </li>
+        </ul>
+
+        <button class="border border-white/30 px-6 h-12 font-display tracking-tighter"> BOOK TRIP </button>
+      </div>
+    </nav>
+
+    <div class="mt-8 pb-72 flex flex-col items-center justify-center space-y-4 text-center">
+      <p class="text-white/50 tracking-[3px]">
+        BOOK YOUR TRIP
+      </p>
+      <h1 class="md:max-w-4xl font-display text-5xl tracking-tighter">
+        Choose Your Favorite Tour To Explore
+      </h1>
+    </div>
+  </div>
+
+  <ul class="h-[580px] overflow-hidden space-x-8 flex items-center justify-between -translate-y-1/2">
+    <li class="min-w-[270px] flex flex-col justify-center -translate-x-[250px] sm:-translate-x-3">
+      <div class="h-[304px] bg-blue-500" />
+      <div class="hidden sm:block absolute top-[316px]">
+        <p> Rome </p>
+        <p class="text-stone-600/50"> Italy </p>
+      </div>
+    </li>
+
+    <li class="relative min-w-[270px] flex flex-col justify-center -translate-x-[250px] sm:-translate-x-3">
+      <div class="h-[400px] bg-[#DD6F5E]"></div>
+      <div class="absolute top-[412px]">
+        <p> New York City </p>
+        <p class="text-stone-600/50"> USA </p>
+      </div>
+    </li>
+
+    <li class="min-w-[270px] flex flex-col justify-center -translate-x-[250px] sm:-translate-x-3">
+      <div class="h-[368px] bg-emerald-500"></div>
+      <div class="hidden sm:block absolute top-[380px]">
+        <p> Paris </p>
+        <p class="text-stone-600/50"> France </p>
+      </div>
+    </li>
+
+    <li class="relative min-w-[270px] hidden sm:flex flex-col justify-center -translate-x-[250px] sm:-translate-x-3">
+      <div class="h-[464px] bg-violet-600"></div>
+      <div class="absolute top-[476px]">
+        <p> Barcelona </p>
+        <p class="text-stone-600/50"> Spain </p>
+      </div>
+    </li>
+
+    <li class="relative min-w-[270px] hidden sm:flex flex-col justify-center -translate-x-[250px] sm:-translate-x-3">
+      <div class="h-[304px] bg-blue-500"></div>
+      <div class="absolute top-[316px]">
+        <p> San Francisco </p>
+        <p class="text-stone-600/50"> USA </p>
+      </div>
+    </li>
+  </ul>
+
+  <div class="flex flex-col items-center space-y-24">
+    <div class="w-full flex flex-col md:flex-row justify-around items-center space-y-24 md:space-y-0 px-6 md:px-36">
+      <div class="flex flex-col items-start space-y-8">
+        <span class="text-stone-600/50 tracking-[3px]"> About </span>
+        <h1 class="-translate-x-1 md:flex flex-col font-display text-4xl -tracking-[8px]">
+          <span> Explore Our </span>
+          <span> Planet Together </span>
+        </h1>
+        <p class="md:max-w-sm">
+          It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+        </p>
+        <div class="flex space-x-6">
+          <img class="w-8 h-8" src="./assets/dots.png" />
+          <div class="md:max-w-sm">
+            <h2 class="text-2xl"> Great Adventures </h2>
+            <p class="text-stone-600/50 leading-8">
+              Separated they live in Bookmarksgrove right at the coast of the
+              Semantics, a large language.
+            </p>
+          </div>
+        </div>
+        <button class="bg-[#DD6F5E] h-12 px-6 text-white font-display -tracking-[4px]"> ABOUT US </button>
+      </div>
+
+      <div>
+        <div class="flex items-center bg-zinc-100 h-72 md:h-[470px] w-4/5 float-right">
+          <figure
+            class="flex flex-col space-y-3 px-4 md:px-6 py-6 md:py-8 h-3/4 md:h-3/5 w-3/5 bg-[#DD6F5E] text-xs -translate-x-16">
+            <blockquote class="text-white md:text-md">
+              The copy warned the Little Blind Text, that where it came from.
+            </blockquote>
+            <figcaption class="text-white/50 md:text-sm"> – Alfie Wood </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <div class="w-full flex flex-col items-center space-y-16 bg-main text-white py-24 px-6 md:px-24">
+      <span class="text-white/50 tracking-[3px]"> EXCLUSIVE OFFERS </span>
+      <h1 class="text-4xl sm:max-w-md text-center font-display leading-10 -tracking-[8px]">
+        Discover Popular Destinations
+      </h1>
+
+      <ul class="w-full flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 justify-center">
+        <li class="w-full md:w-96 h-96 flex flex-col justify-between bg-blue-500 p-10">
+          <div>
+            <p class="font-display text-4xl -tracking-[8px] -translate-x-1"> Rome </p>
+            <p class="text-white/50"> Italy </p>
+          </div>
+          <div class="flex items-center justify-center rounded-full bg-[#F07C52] w-36 h-36">
+            <span class="font-display text-4xl -tracking-[8px] -translate-x-1">$199</span>
+          </div>
+        </li>
+
+        <li class="w-full md:w-96 h-96 flex flex-col justify-between bg-[#DD6F5E] p-10">
+          <div>
+            <p class="font-display text-4xl -tracking-[8px] -translate-x-1"> New York </p>
+            <p class="text-white/50"> USA </p>
+          </div>
+          <div class="flex items-center justify-center rounded-full bg-[#F07C52] w-36 h-36">
+            <span class="font-display text-4xl -tracking-[8px] -translate-x-1">$250</span>
+          </div>
+        </li>
+
+        <li class="w-full md:w-96 h-96 flex flex-col justify-between bg-emerald-500 p-10">
+          <div>
+            <p class="font-display text-4xl -tracking-[8px] -translate-x-1"> Paris </p>
+            <p class="text-white/50"> France </p>
+          </div>
+          <div class="flex items-center justify-center rounded-full bg-[#F07C52] w-36 h-36">
+            <span class="font-display text-4xl -tracking-[8px] -translate-x-1">$129</span>
+          </div>
+        </li>
+      </ul>
+
+      <button class="border border-white/30 px-6 h-12 font-display tracking-tighter"> DISCOVER </button>
+    </div>
+
+    <div class="w-full flex flex-col items-center space-y-16 px-6 md:px-24 py-16">
+      <span class="text-stone-600/50 tracking-[3px]"> BEST ADVENTURES </span>
+      <h1 class="self-start sm:flex sm:flex-col text-4xl font-display -tracking-[8px]">
+        <span> Our Popular </span>
+        <span> Tours & Expeditions </span>
+      </h1>
+
+      <ul class="w-full flex md:grid md:grid-cols-4 space-x-2 md:space-x-0 md:gap-6 items-center overflow-x-auto">
+        <li class="min-w-[270px] md:min-w-0 flex flex-col">
+          <div class="bg-zinc-100 flex flex-col space-y-2 p-8">
+            <p class="text-xl"> Rome, Italy </p>
+            <p class="text-sm text-body/50"> 12-24 Jun 2022 </p>
+            <p class="text-4xl font-display -tracking-[8px] !mt-6"> $349 </p>
+          </div>
+          <div class="h-[180px] bg-blue-500" />
+        </li>
+
+        <li class="min-w-[270px] md:min-w-0 flex flex-col">
+          <div class="bg-zinc-100 flex flex-col space-y-2 p-8">
+            <p class="text-xl"> New York City, USA </p>
+            <p class="text-sm text-body/50"> 12-24 Jun 2022 </p>
+            <p class="text-4xl font-display -tracking-[8px] !mt-6"> $200 </p>
+          </div>
+          <div class="h-[180px] bg-[#DD6F5E]" />
+        </li>
+
+        <li class="min-w-[270px] md:min-w-0 hidden md:flex flex-col">
+          <div class="bg-zinc-100 flex flex-col space-y-2 p-8">
+            <p class="text-xl"> Barcelona, Spain </p>
+            <p class="text-sm text-body/50"> 12-24 Jun 2022 </p>
+            <p class="text-4xl font-display -tracking-[8px] !mt-6"> $95 </p>
+          </div>
+          <div class="h-[180px] bg-[#DD6F5E]" />
+        </li>
+
+        <li class="min-w-[270px] md:min-w-0 hidden md:flex flex-col">
+          <div class="bg-[#DD6F5E] text-white flex flex-col space-y-2 p-8">
+            <p class="text-xl"> Paris, France </p>
+            <p class="text-sm text-white/50"> 12-24 Jun 2022 </p>
+            <p class="text-4xl font-display -tracking-[8px] !mt-6"> $1200 </p>
+          </div>
+          <div class="h-[180px] bg-blue-500" />
+        </li>
+
+        <li class="min-w-[270px] md:min-w-0 hidden md:flex flex-col">
+          <div class="bg-zinc-100 flex flex-col space-y-2 p-8">
+            <p class="text-xl"> San Francisco, USA </p>
+            <p class="text-sm text-body/50"> 12-24 Jun 2022 </p>
+            <p class="text-4xl font-display -tracking-[8px] !mt-6"> $480 </p>
+          </div>
+          <div class="h-[180px] bg-[#DD6F5E]" />
+        </li>
+
+        <li class="min-w-[270px] md:min-w-0 hidden md:flex flex-col">
+          <div class="bg-zinc-100 flex flex-col space-y-2 p-8">
+            <p class="text-xl"> Amesbury, UK </p>
+            <p class="text-sm text-body/50"> 12-24 Jun 2022 </p>
+            <p class="text-4xl font-display -tracking-[8px] !mt-6"> $569 </p>
+          </div>
+          <div class="h-[180px] bg-emerald-500" />
+        </li>
+
+        <li class="min-w-[270px] md:min-w-0 hidden md:flex flex-col">
+          <div class="bg-zinc-100 flex flex-col space-y-2 p-8">
+            <p class="text-xl"> Versailles, France </p>
+            <p class="text-sm text-body/50"> 12-24 Jun 2022 </p>
+            <p class="text-4xl font-display -tracking-[8px] !mt-6"> $100 </p>
+          </div>
+          <div class="h-[180px] bg-violet-600" />
+        </li>
+
+        <li class="min-w-[270px] md:min-w-0 hidden md:flex flex-col">
+          <div class="bg-zinc-100 flex flex-col space-y-2 p-8">
+            <p class="text-xl"> Venice, Italy </p>
+            <p class="text-sm text-body/50"> 12-24 Jun 2022 </p>
+            <p class="text-4xl font-display -tracking-[8px] !mt-6"> $99 </p>
+          </div>
+          <div class="h-[180px] bg-violet-600" />
+        </li>
+      </ul>
+
+      <button class="px-6 font-display tracking-tighter h-12 text-[#DD6F5E] border"> SEE MORE </button>
+    </div>
+
+    <div
+      class="w-full flex flex-col md:flex-row justify-center items-center space-y-24 md:space-y-0 md:space-x-16 px-6 md:px-24">
+      <div>
+        <div class="flex items-center justify-end bg-zinc-100 h-72 md:h-[470px] w-4/5">
+          <figure style="background: linear-gradient(180deg, #3A76E5 0%, #805ED7 100%);"
+            class="flex flex-col space-y-3 px-4 md:px-6 py-6 md:py-8 h-3/4 md:h-3/5 w-3/5 bg-[#DD6F5E] text-xs translate-x-16">
+            <blockquote class="text-white md:text-md">
+              Rewritten a thousand times and everything that was left from.
+            </blockquote>
+            <figcaption class="text-white/50 md:text-sm"> – Daisy Murphy </figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="flex flex-col items-start space-y-8">
+        <span class="text-stone-600/50 tracking-[3px]"> FEATURES </span>
+        <h1 class="-translate-x-1 md:flex flex-col font-display text-4xl -tracking-[8px]">
+          <span> Get Unique </span>
+          <span> Experience </span>
+        </h1>
+        <p class="md:max-w-sm">
+          Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language.
+        </p>
+        <ul class="grid grid-cols-2 gap-x-4 gap-y-6 text-2xl">
+          <li class="inline-flex items-center space-x-4">
+            <div class="flex items-center w-8 h-8 border border-[#DD6F5E] rounded-full">
+              <img class="w-6 h-6 -translate-y-1.5 translate-x-2" src="./assets/check.png" />
+            </div>
+            <span> Transfers </span>
+          </li>
+
+          <li class="inline-flex items-center space-x-4">
+            <div class="flex items-center w-8 h-8 border border-[#DD6F5E] rounded-full">
+              <img class="w-6 h-6 -translate-y-1.5 translate-x-2" src="./assets/check.png" />
+            </div>
+            <span> Guides </span>
+          </li>
+
+          <li class="inline-flex items-center space-x-4">
+            <div class="flex items-center w-8 h-8 border border-[#DD6F5E] rounded-full">
+              <img class="w-6 h-6 -translate-y-1.5 translate-x-2" src="./assets/check.png" />
+            </div>
+            <span> Optimal </span>
+          </li>
+
+          <li class="inline-flex items-center space-x-4">
+            <div class="flex items-center w-8 h-8 border border-[#DD6F5E] rounded-full">
+              <img class="w-6 h-6 -translate-y-1.5 translate-x-2" src="./assets/check.png" />
+            </div>
+            <span> Locals </span>
+          </li>
+        </ul>
+
+        <button class="bg-[#DD6F5E] h-12 px-6 text-white font-display -tracking-[4px]"> SERVICE </button>
+      </div>
+    </div>
+
+    <div class="w-full flex flex-col items-center space-y-16 px-6 md:px-24 py-16">
+      <span class="text-stone-600/50 tracking-[3px]"> TESTIMONIALS </span>
+      <h1 class="md:flex flex-col text-4xl text-center font-display -tracking-[8px]">
+        <span> Travel Tips </span>
+        <span> From Travellers </span>
+      </h1>
+
+      <ul class="flex justify-between">
+        <li class="flex flex-col space-y-16 max-w-sm md:max-w-none">
+          <div class="ml-4 relative bg-slate-200 p-8 chat-bubble">
+            <img class="absolute h-9 w-12 -top-6" src="./assets/quote.png" />
+            <p class="text-body/50">
+              "When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her
+              hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road"
+            </p>
+          </div>
+          <div class="flex space-x-6">
+            <div class="w-20 h-20 rounded-full bg-blue-500"> </div>
+            <div class="flex flex-col justify-around">
+              <p class="text-xl"> Artem Sazonov </p>
+              <p class="text-body/50"> Student </p>
+            </div>
+          </div>
+        </li>
+
+        <li class="hidden md:flex flex-col space-y-16">
+          <div class="ml-4 relative bg-slate-200 p-8 chat-bubble">
+            <img class="absolute h-9 w-12 -top-6" src="./assets/quote.png" />
+            <p class="text-body/50">
+              "She reached the first hills of the Italic Mountains, she had a last view back on the skyline of her
+              hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road"
+            </p>
+          </div>
+          <div class="flex space-x-6">
+            <div class="w-20 h-20 rounded-full bg-emerald-500"> </div>
+            <div class="flex flex-col justify-around">
+              <p class="text-xl"> Merille Burgett </p>
+              <p class="text-body/50"> Designer </p>
+            </div>
+          </div>
+        </li>
+
+        <li class="hidden md:flex flex-col space-y-16">
+          <div class="ml-4 relative bg-slate-200 p-8 chat-bubble">
+            <img class="absolute h-9 w-12 -top-6" src="./assets/quote.png" />
+            <p class="text-body/50">
+              "Reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown
+              Bookmarksgrove, the headline of Alphabet Village and the subline of her own road"
+            </p>
+          </div>
+          <div class="flex space-x-6">
+            <div class="w-20 h-20 rounded-full bg-[#DD6F5E]"> </div>
+            <div class="flex flex-col justify-around">
+              <p class="text-xl"> Gibby Radki </p>
+              <p class="text-body/50"> Developer </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+      <ul class="flex justify-center space-x-4 mt-12">
+        <li><button class="w-4 h-4 rounded-full bg-[#DD6F5E] border border-[#DD6F5E]"> </button></li>
+        <li><button class="w-4 h-4 rounded-full border border-[#DD6F5E]"> </button></li>
+        <li><button class="w-4 h-4 rounded-full border border-[#DD6F5E]"> </button></li>
+        <li class="md:hidden"><button class="w-4 h-4 rounded-full border border-[#DD6F5E]"> </button></li>
+        <li class="md:hidden"><button class="w-4 h-4 rounded-full border border-[#DD6F5E]"> </button></li>
+      </ul>
+    </div>
+
+    <div class="w-full flex flex-col space-y-8 bg-main text-white py-16 px-6 md:px-24">
+      <div class="w-full flex flex-col md:flex-row items-start md:items-end md:justify-between space-y-8 md:space-y-0">
+        <div class="flex flex-col space-y-8">
+          <span class="text-white/50 tracking-[3px]"> OUR BLOG </span>
+          <h1 class="-translate-x-1 md:flex flex-col text-4xl font-display leading-10 -tracking-[8px]">
+            <span> Read Our </span>
+            <span> Travel Articles </span>
+          </h1>
+        </div>
+
+        <button class="px-6 font-display tracking-tighter h-12 border"> SEE MORE </button>
+      </div>
+
+      <ul class="flex flex-col md:flex-row gap-8">
+        <li class="flex flex-col">
+          <div class="flex bg-white justify-between p-6">
+            <div class="w-2/3 md:w-4/5 flex flex-col space-y-4">
+              <span class="text-lg text-body/50"> 15 MAY 2020 </span>
+              <p class="text-2xl text-body">
+                Attractions proved to be firm favorites with travelers
+              </p>
+              <span class="text-lg text-body/50"> Torsten Paulsonn </span>
+            </div>
+            <div>
+              <div class="float-right mt-4 w-16 h-16 bg-blue-500 rounded-full"></div>
+            </div>
+          </div>
+          <div class="h-48 md:h-72 bg-[#DD6F5E]"> </div>
+        </li>
+
+        <li class="flex flex-col">
+          <div class="flex bg-white justify-between p-6">
+            <div class="w-2/3 md:w-4/5 flex flex-col space-y-4">
+              <span class="text-lg text-body/50"> 10 MAY 2020 </span>
+              <p class="text-2xl text-body">
+                Best-preserved monuments of Ancient Rome
+              </p>
+              <span class="text-lg text-body/50"> Isaac Hunt </span>
+            </div>
+            <div>
+              <div class="float-right mt-4 w-16 h-16 bg-emerald-500 rounded-full"></div>
+            </div>
+          </div>
+          <div class="h-48 md:h-72 bg-emerald-500"> </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w-full flex flex-col divide-y divide-white/10 bg-main text-white pt-16 pb-32 px-6 md:px-24 !mt-0">
+      <div class="flex flex-col md:flex-row md:items-center md:justify-between space-y-8 md:space-y-0 pb-20">
+        <div class="flex flex-col space-y-4">
+          <h1 class="-translate-x-1 text-4xl font-display leading-10 -tracking-[8px]">
+            Newsletter
+          </h1>
+          <p class="text-white/50">
+            Separated they live in right at the coast of the Semantics
+          </p>
+        </div>
+
+        <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8">
+          <input class="px-4 h-12" type="email" placeholder="Your Email">
+          <button class="font-display md:px-6 bg-emerald-500 tracking-tighter h-12"> SUBSCRIBE </button>
+        </div>
+      </div>
+
+      <div class="flex flex-col space-y-16 md:space-y-0 md:space-x-8 md:flex-row md:items-center md:justify-center pt-20">
+        <div class="relative flex items-center justify-center">
+          <img src="./assets/map.png" class="object-cover h-[600px]">
+          <div class="absolute inset-0 flex items-center justify-center">
+            <div class="flex flex-col space-y-6">
+              <div class="relative bg-white text-body px-8 py-6 map-bubble">
+                <p> 875 School Street </p>
+                <p> Ormond Beach, FL 32174 </p>
+              </div>
+
+              <div class="flex justify-center">
+                <div class="flex justify-center items-center bg-[#DD6F5E] w-12 h-12 rounded-full">
+                  <img src="./assets/map-point.png">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="md:max-w-md flex flex-col items-start space-y-8">
+          <span class="text-white/50 tracking-[3px]"> CONTACT </span>
+          <h1 class="-translate-x-1 md:flex flex-col font-display text-4xl -tracking-[8px]">
+            <span> Get In Touch </span>
+            <span> With Us </span>
+          </h1>
+          <p class="md:max-w-sm">
+            Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language.
+          </p>
+
+          <ul class="flex flex-col space-y-4">
+            <li class="inline-flex items-center space-x-4">
+              <div class="flex items-center justify-center border border-white/30 rounded-full w-12 h-12">
+                <img src="./assets/telephone.png">
+              </div>
+              <span class="text-2xl"> +1 (234) 567-89-02 </span>
+            </li>
+
+            <li class="inline-flex items-center space-x-4">
+              <div class="flex items-center justify-center border border-white/30 rounded-full w-12 h-12">
+                <img src="./assets/email.png">
+              </div>
+              <span class="text-white/50"> travel@adventure.com </span>
+            </li>
+          </ul>
+
+          <button class="font-display px-6 bg-emerald-500 tracking-tighter h-12"> CONTACT US </button>
+        </div>
+      </div>
+    </div>
+
+    <footer class="w-full flex flex-col divide-y divide-white/10 bg-footer text-white py-16 md:pb-0 px-6 md:px-24 !mt-0">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-y-12 pb-16 md:pb-12">
+        <span class="text-4xl font-display -tracking-[8px]"> TVL </span>
+        <div class="flex flex-col space-y-6">
+          <span class="text-white/50 tracking-[3px]"> MENU </span>
+          <ul class="flex flex-col space-y-2">
+            <li> <a href="#"> About </a> </li>
+            <li> <a href="#"> Tours </a> </li>
+            <li> <a href="#"> Blog </a> </li>
+            <li> <a href="#"> Contact </a> </li>
+          </ul>
+        </div>
+
+        <div class="flex flex-col space-y-6">
+          <span class="text-white/50 tracking-[3px]"> SERVICE </span>
+          <ul class="flex flex-col space-y-2">
+            <li> <a href="#"> Transfers </a> </li>
+            <li> <a href="#"> Guides </a> </li>
+            <li> <a href="#"> Locals </a> </li>
+            <li> <a href="#"> Optimal </a> </li>
+          </ul>
+        </div>
+
+        <div class="flex flex-col space-y-6">
+          <span class="text-white/50 tracking-[3px]"> SOCIAL </span>
+          <ul class="flex space-x-2">
+            <li>
+              <a href="#" class="flex items-center justify-center w-12 h-12 border border-white/30 rounded-full">
+                <img src="./assets/facebook.png">
+              </a>
+            </li>
+            <li>
+              <a href="#" class="flex items-center justify-center w-12 h-12 border border-white/30 rounded-full">
+                <img src="./assets/twitter.png">
+              </a>
+            </li>
+            <li>
+              <a href="#" class="flex items-center justify-center w-12 h-12 border border-white/30 rounded-full">
+                <img src="./assets/instagram.png">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="flex flex-col md:flex-row space-y-16 md:space-y-0 md:justify-between pt-16 md:pt-12 md:pb-12">
+        <div class="flex flex-col md:block text-center text-white/50">
+          <span> Copyright © 2020 Laaqiq. </span>
+          <span> All Rights Reserved. </span>
+        </div>
+
+        <div class="flex justify-around md:justify-none md:space-x-24">
+          <span> Terms of use </span>
+          <span> Privacy Policy </span>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

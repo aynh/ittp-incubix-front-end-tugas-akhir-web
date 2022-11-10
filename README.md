@@ -2,7 +2,7 @@
 
 Tugas akhir pada bootcamp Front-end yang dilaksanakan oleh Incubix, Institut Teknologi Telkom Purwokerto (ITTP). 
 
-> Live at <https://aynh.github.io/ittp-incubix-front-end-tugas-akhir-web/>, menggunakan desain [nomor 3](#detail-tugas).
+> Live at <https://aynh.github.io/ittp-incubix-front-end-tugas-akhir-web/>, menggunakan desain [nomor 3](https://www.figma.com/file/Ga6MtKD35D7ceT8j6t5eIo/3).
 
 ## Detail tugas
 
@@ -19,10 +19,10 @@ Tugas akhir pada bootcamp Front-end yang dilaksanakan oleh Incubix, Institut Tek
 > 
 > Lampiran UI
 > Desain Tugas Akhir : 
-> 1. https://www.figma.com/file/erSQYKs7bEkdJL0EIVYJ2p/1?node-id=0%3A1
-> 2. https://www.figma.com/file/ZNJudnMGLPEj4dW2RELfvI/2?node-id=0%3A1
-> 3. https://www.figma.com/file/Ga6MtKD35D7ceT8j6t5eIo/3?node-id=0%3A1
-> 4. https://www.figma.com/file/smZBVAw7bADKvu5bj3ot6q/4?node-id=0%3A1
-> 5. https://www.figma.com/file/9IL9UK7bUAL4IQoyjXCwoQ/5?node-id=0%3A2
-> 6. https://www.figma.com/file/LLJXyBsFLPyWWeUJ33yQrQ/6?node-id=0%3A1
-> 7. https://www.figma.com/file/9oSZdHa3TT4zDhUIq82X1Z/7?node-id=0%3A1
+> 1. https://www.figma.com/file/erSQYKs7bEkdJL0EIVYJ2p/1
+> 2. https://www.figma.com/file/ZNJudnMGLPEj4dW2RELfvI/2
+> 3. https://www.figma.com/file/Ga6MtKD35D7ceT8j6t5eIo/3
+> 4. https://www.figma.com/file/smZBVAw7bADKvu5bj3ot6q/4
+> 5. https://www.figma.com/file/9IL9UK7bUAL4IQoyjXCwoQ/5
+> 6. https://www.figma.com/file/LLJXyBsFLPyWWeUJ33yQrQ/6
+> 7. https://www.figma.com/file/9oSZdHa3TT4zDhUIq82X1Z/7
